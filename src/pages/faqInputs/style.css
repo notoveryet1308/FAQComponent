@@ -1,0 +1,40 @@
+.faq-inputs {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 3rem;
+  background: #EFF8FE;
+  padding-left: 8.8rem;
+ 
+  /* margin-top: 4rem; */
+}
+
+.faq-inputs .content {
+  width: 52%;
+  margin: 0 auto;
+}
+
+.faq-inputs .border {    
+   margin-bottom: .4rem;
+   border: 1px #D8DADC dashed;    
+}
+
+.content-text-info .content-title{
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  color: #9CA3A6;
+  letter-spacing: .1rem;
+  margin: 5rem 0;
+  margin-bottom: 2rem;
+}
+
+.content-text-info .content-para {
+  font-size: 1.8rem;
+  font-family:'Noto Sans', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #25445C;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,29 @@
+.add-faq-btn {
+  width: 100%;
+  height: 4rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-faq-btn .border-dashed{
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px #D8DADC dashed;
+}
+
+.add-btn {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background: #E0F0FD;
+  border-radius: 50%;
+}

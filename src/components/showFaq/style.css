@@ -1,0 +1,52 @@
+.show-faq{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  border-bottom: 1px #D8DADC dashed; ;
+  padding: 3rem 0;
+}
+
+.show-box{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.faq-title{
+  flex-basis: 9%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Serif', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #64B5F6;
+}
+
+.main-text{
+  flex-basis: 90%;
+  /* background-color: #333; */
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Noto Serif', serif;
+  font-size: 1.8rem;
+  color: #25445C;
+}
+.show-answer{
+  margin-left: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.show-answer .fas{
+   color: #64B5F6;
+  font-size: 1.6rem;
+}
+
+.show-faq-answer{
+  margin: 1rem 0;
+}
